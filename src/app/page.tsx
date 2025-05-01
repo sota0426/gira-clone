@@ -1,8 +1,10 @@
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 
 export default function Home() {
   return (
   <div>
+    <Input />
     <Button variant="primary">Primary</Button> 
     <Button variant="secondary">secondary</Button> 
     <Button variant="destructive">destructive</Button> 
